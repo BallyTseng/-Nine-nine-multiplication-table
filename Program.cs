@@ -11,7 +11,7 @@ namespace Nine_ninemultiplicationtable
                 for (int j = 1; j <= 9; j++)
                 {
                     var sum = i * j;
-                    Console.Write($"{i}*{j}={sum}");
+                    Console.Write($"{j}*{i}={sum}");
                     Console.Write("\t");
                 }
                 Console.WriteLine("");
